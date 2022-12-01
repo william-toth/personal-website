@@ -272,7 +272,7 @@ function Main() {
                   I am a current senior at Dartmouth College studying Computer Science and Mathematics.
                 </div>
                 <div className="abouttextbody">
-                  Over the last year, I've worked internships at Amazon, Meta, and Nasdaq, and I'm set to be joining Roblox next year as a Software Engineer.
+                  Over the last year, I've interned at Amazon, Meta, and Nasdaq, and I'm set to be joining Roblox next year as a Software Engineer.
                 </div>
                 <div className="abouttextbody">
                   In my free time, I like to play music. I'm in a band in college, and I have a few songs out. Check me out on Apple Music, Spotify, and Soundcloud.
