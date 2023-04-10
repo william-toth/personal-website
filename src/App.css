@@ -42,6 +42,7 @@
   width: 73vw;
   border-radius: 10px;
   border: 2.5px solid grey;
+  animation: flicker 1.5s linear reverse infinite
 }
 
 .panel {
@@ -456,4 +457,70 @@
   width: 30px;
   margin-bottom: -5px;
   margin-right: 3px;
+}
+
+@keyframes flicker {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0.95;
+  }
+	10% {
+		opacity: 1;
+  }
+  15% {
+    opacity: 0.95;
+  }
+	20% {
+		opacity: 1;
+  }
+  25% {
+		opacity: 0.98;
+	}
+	30% {
+		opacity: 1;
+  }
+  35% {
+		opacity: 0.97;
+	}
+	40% {
+		opacity: 1;
+  }
+  45% {
+		opacity: 0.97;
+	}
+	50% {
+		opacity: 1;
+	}
+	55% {
+		opacity: 0.95;
+  }
+  60% {
+		opacity: 1;
+  }
+  65% {
+		opacity: 0.98;
+  }
+	70% {
+		opacity: 0.96;
+  }
+  75% {
+		opacity: 1;
+  }
+	80% {
+		opacity: 1;
+  }
+  85% {
+		opacity: 0.95;
+  }
+	90% {
+		opacity: 1;
+  }
+  95% {
+		opacity: 0.95;
+  }
+	100% {
+		opacity: 1;
+	}
 }
